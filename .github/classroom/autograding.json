@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test case 1",
+      "setup": "",
+      "run": "node init.js",
+      "input": "1 7 3\r\n2 +\r\n5 -\r\n6 +",
+      "output": "6 16.1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test case 2",
+      "setup": "",
+      "run": "node init.js",
+      "input": "1 10 4\r\n1 -\r\n3 +\r\n5 -\r\n6 +",
+      "output": "2 12.2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test case 3",
+      "setup": "",
+      "run": "node init.js",
+      "input": "10 15 5\r\n2 -\r\n4 +\r\n7 -\r\n10 -\r\n13 +",
+      "output": "3 7.7",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "Test case 4",
+      "setup": "",
+      "run": "node init.js",
+      "input": "10 25 7\r\n3 B\r\n5 B\r\n7 A\r\n10 A\r\n11 A\r\n15 B\r\n20 B",
+      "output": "6 6.0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 40
+    }
+  ]
+}
